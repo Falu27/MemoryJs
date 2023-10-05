@@ -14,7 +14,6 @@ function reparteTarjetas(lasTarjetas) {
 
   tarjetasBarajadas.forEach(function (icon) {
     var tarjeta = document.createElement("div");
-
     tarjeta.innerHTML =
       "<div class='tarjeta' data-valor= " +
       icon +
